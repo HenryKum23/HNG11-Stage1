@@ -22,3 +22,5 @@ chmod +x create_users.sh Execute with sudo (root privileges required): sudo ./cr
 
 Log file (/var/log/user_management.log):
 sudo cat /var/log/user_management.log Passwords file (/var/secure/user_passwords.csv): sudo cat /var/secure/user_passwords.csv Notes Ensure the input file (user_list.txt) is correctly formatted with usernames and groups separated by a semicolon (;). Existing users are skipped during execution to prevent duplicates. The script requires root privileges to create users and modify system files
+
+https://hng.tech/internship, https://hng.tech/hire
