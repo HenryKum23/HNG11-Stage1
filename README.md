@@ -1,4 +1,5 @@
 HNG-project
+
 User Management Script
 Overview This repository contains a Bash script for managing user creation on Linux systems. The script reads a list of usernames and optionally groups from an input file, creates users, assigns them to personal groups, sets passwords, and logs actions.
 
