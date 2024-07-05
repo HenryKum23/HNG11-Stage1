@@ -9,7 +9,8 @@ This repository contains a Bash script for managing user creation on Linux syste
   - Creation of users and their personal groups.
   - Sets random passwords for new users and stores them securely.
 
-Logs user creation actions to `/var/log/user_management.log`. Stores usernames and passwords securely in `/var/secure/user_passwords.csv`.
+Logs user creation actions to `/var/log/user_management.log`. 
+Stores usernames and passwords securely in `/var/secure/user_passwords.csv`.
 
 ## Prerequisites
 
