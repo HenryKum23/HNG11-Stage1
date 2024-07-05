@@ -44,8 +44,10 @@ Logs user creation actions to `/var/log/user_management.log`. Stores usernames a
     
   - Passwords file (/var/secure/user_passwords.csv):
     sudo cat /var/secure/user_passwords.csv
+
   
   Notes
+  
   Ensure the input file (user_list.txt) is correctly formatted with usernames and groups separated by a semicolon (;).
   
   Existing users are skipped during execution to prevent duplicates.
