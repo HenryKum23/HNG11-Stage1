@@ -34,8 +34,8 @@ Logs user creation actions to `/var/log/user_management.log`. Stores usernames a
 3. Run the script:
    Ensure the script is executable with the following command (root privileges required):
 
-  sudo chmod +x create_users.sh
-  sudo ./create_users.sh user_list.txt
+   sudo chmod +x create_users.sh
+   sudo ./create_users.sh user_list.txt
   
 4. View logs and passwords:
 
@@ -46,7 +46,7 @@ Logs user creation actions to `/var/log/user_management.log`. Stores usernames a
     sudo cat /var/secure/user_passwords.csv
 
   
-  Notes
+  NOTES:
   
   Ensure the input file (user_list.txt) is correctly formatted with usernames and groups separated by a semicolon (;).
   
