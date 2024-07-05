@@ -45,6 +45,7 @@ Logs user creation actions to `/var/log/user_management.log`. Stores usernames a
   - Passwords file (/var/secure/user_passwords.csv):
     sudo cat /var/secure/user_passwords.csv
 
+
   
   NOTES:
   
@@ -54,8 +55,9 @@ Logs user creation actions to `/var/log/user_management.log`. Stores usernames a
   
   The script requires root privileges to create users and modify system files.
 
+
   
-  Links
+  LINKS:
   
   https://hng.tech/internship
   https://hng.tech/hire
