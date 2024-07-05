@@ -24,37 +24,36 @@ Logs user creation actions to `/var/log/user_management.log`. Stores usernames a
    ```bash
    git clone https://github.com/yourusername/HNG-Project.git
    cd HNG-Project
-Create a text file (user_list.txt for example) with each line formatted as username;group.
-Example:
+   
+2. Create a text file (user_list.txt for example) with each line formatted as username;group.
+   Example:
+   alice;admin
+   bob;users
 
-bash
-Copy code
-alice;admin
-bob;users
-charlie
-Run the script:
-Ensure the script is executable with the following command (root privileges required):
 
-bash
-Copy code
-sudo chmod +x create_users.sh
-sudo ./create_users.sh user_list.txt
-View logs and passwords:
+3. Run the script:
+   Ensure the script is executable with the following command (root privileges required):
 
-Log file (/var/log/user_management.log):
-bash
-Copy code
-sudo cat /var/log/user_management.log
-Passwords file (/var/secure/user_passwords.csv):
-bash
-Copy code
-sudo cat /var/secure/user_passwords.csv
-Notes
+  sudo chmod +x create_users.sh
+  sudo ./create_users.sh user_list.txt
+  
+4. View logs and passwords:
 
-Ensure the input file (user_list.txt) is correctly formatted with usernames and groups separated by a semicolon (;).
-Existing users are skipped during execution to prevent duplicates.
-The script requires root privileges to create users and modify system files.
-Links
+  - Log file (/var/log/user_management.log):
+    sudo cat /var/log/user_management.log
+    
+  - Passwords file (/var/secure/user_passwords.csv):
+    sudo cat /var/secure/user_passwords.csv
+  
+  Notes
+  Ensure the input file (user_list.txt) is correctly formatted with usernames and groups separated by a semicolon (;).
+  
+  Existing users are skipped during execution to prevent duplicates.
+  
+  The script requires root privileges to create users and modify system files.
 
-HNG Internship
-HNG Hire
+  
+  Links
+  
+  https://hng.tech/internship
+  https://hng.tech/hire
